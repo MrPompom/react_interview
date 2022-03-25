@@ -1,13 +1,11 @@
 import React from "react";
-//import { Link } from 'react-router-dom';
-import FilmCard from "./FilmCard";
+import FilmList from "./FilmList"
 
 function HomePage() {
 
     return (
         <div className="HomePage">
-            <p>hello world</p>
-            <FilmCard></FilmCard>
+            <FilmList></FilmList>
         </div>
     );
 
